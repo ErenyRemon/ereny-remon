@@ -13,7 +13,7 @@ function Header() {
     <>
       <div className='header'>
         <div className="headerDivName">
-          <a href="http://localhost:3000/"><h1>Ereny Remon</h1></a>
+          <a href="https://ereny-remon.netlify.app/"><h1>Ereny Remon</h1></a>
         </div>
 
         {/* اللينكات + الزرار العادي للشاشات الكبيرة */}
@@ -53,6 +53,7 @@ function Header() {
               <li><a href="#mainDivNineID">Extracurricular Activities</a></li>
             </ul>
           </div>
+
 
           <div className='headerDivGet'>
             <a href="#mainDivThirteenID">
