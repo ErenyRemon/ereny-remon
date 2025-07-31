@@ -494,7 +494,7 @@ function Home() {
                       <FaWhatsapp className='mainDivFourteenLeftIcon' />
                     </div>
                     <div className='mainDivFourteenLeftDiv'>
-                      <h4>What's app & Phone</h4>
+                      <h4>WhatsApp & Phone</h4>
                       <p> <a className="mainDivFourteenLeftLink" href="https://wa.me/201552386355">01552386355</a> </p>
                     </div>
                   </div>
