@@ -440,7 +440,7 @@ function Home() {
                     <Card.Img variant="top" src="./11.jpg" />
                     <div className='mainDivTwelveSpotlightCardDown'>
                       <h3 className='mainDivTwelveSpotlightCardDownHeader'>Bachelor of Commerce, department of accounting</h3>
-                      <p className="mainDivTwelveCardParagraph">South Velley University - 2025</p>
+                      <p className="mainDivTwelveCardParagraph">South Velley University - 2023</p>
                     </div>
                   </SpotlightCard>
                   <SpotlightCard className="mainDivTwelveSpotlightCard custom-spotlight-card col-3" spotlightColor="#bb84f17a">
