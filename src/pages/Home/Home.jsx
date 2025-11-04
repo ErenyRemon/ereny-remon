@@ -412,12 +412,12 @@ function Home() {
                   <SpotlightCard className="mainDivElevenSpotlightCard custom-spotlight-card col-9" spotlightColor="#bb84f17a">
                     <h3>Bachelor of Commerce, department of accounting</h3>
                     <p className="mainDivTenCardParagraph">South Valley University</p>
-                    <span className="mainDivTenSpan">Above average 78%</span>
+                    <span className="mainDivTenSpan">Above average 78.33%</span>
                   </SpotlightCard>
                   <SpotlightCard className="mainDivElevenSpotlightCard custom-spotlight-card col-9" spotlightColor="#bb84f17a">
                     <h3>Master of Business Administration (MBA)</h3>
                     <p className="mainDivTenCardParagraph">South Valley University</p>
-                    <span className="mainDivTenSpan">B+ (Superior)</span>
+                    <span className="mainDivTenSpan">Very Good - B</span>
                   </SpotlightCard>
                   <SpotlightCard className="mainDivElevenSpotlightCard custom-spotlight-card col-9" spotlightColor="#bb84f17a">
                     <h3>Software & Python Web Development</h3>
@@ -436,6 +436,20 @@ function Home() {
                   <h2>Certifications</h2>
                 </div>
                 <div className="mainDivTwelveDown">
+                  <SpotlightCard className="mainDivTwelveSpotlightCard custom-spotlight-card col-3" spotlightColor="#bb84f17a">
+                    <Card.Img variant="top" src="./11.jpg" />
+                    <div className='mainDivTwelveSpotlightCardDown'>
+                      <h3 className='mainDivTwelveSpotlightCardDownHeader'>Bachelor of Commerce, department of accounting</h3>
+                      <p className="mainDivTwelveCardParagraph">South Velley University - 2025</p>
+                    </div>
+                  </SpotlightCard>
+                  <SpotlightCard className="mainDivTwelveSpotlightCard custom-spotlight-card col-3" spotlightColor="#bb84f17a">
+                    <Card.Img variant="top" src="./10.jpg" />
+                    <div className='mainDivTwelveSpotlightCardDown'>
+                      <h3 className='mainDivTwelveSpotlightCardDownHeader'>Master of Business Administration - MBA</h3>
+                      <p className="mainDivTwelveCardParagraph">South Velley University - 2025</p>
+                    </div>
+                  </SpotlightCard>
                   <SpotlightCard className="mainDivTwelveSpotlightCard custom-spotlight-card col-3" spotlightColor="#bb84f17a">
                     <Card.Img variant="top" src="./08.jpg" />
                     <div className='mainDivTwelveSpotlightCardDown'>
