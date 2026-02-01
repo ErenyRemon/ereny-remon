@@ -473,6 +473,13 @@ function Home() {
                       <p className="mainDivTwelveCardParagraph">Solo learn - 2025</p>
                     </div>
                   </SpotlightCard>
+                  <SpotlightCard className="mainDivTwelveSpotlightCard custom-spotlight-card col-3" spotlightColor="#bb84f17a">
+                    <Card.Img variant="top" src="./12.jpg" />
+                    <div className='mainDivTwelveSpotlightCardDown'>
+                      <h3 className='mainDivTwelveSpotlightCardDownHeader'>TOT</h3>
+                      <p className="mainDivTwelveCardParagraph">Qena Governorate - 2026</p>
+                    </div>
+                  </SpotlightCard>
 
 
                 </div>
