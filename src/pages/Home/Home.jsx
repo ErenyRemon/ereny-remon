@@ -450,6 +450,14 @@ function Home() {
                       <p className="mainDivTwelveCardParagraph">South Velley University - 2025</p>
                     </div>
                   </SpotlightCard>
+
+                  <SpotlightCard className="mainDivTwelveSpotlightCard custom-spotlight-card col-3" spotlightColor="#bb84f17a">
+                    <Card.Img variant="top" src="./13.jpg" />
+                    <div className='mainDivTwelveSpotlightCardDown'>
+                      <h3 className='mainDivTwelveSpotlightCardDownHeader'>Digital transformation</h3>
+                      <p className="mainDivTwelveCardParagraph">South Valley University - 2025</p>
+                    </div>
+                  </SpotlightCard>
                   <SpotlightCard className="mainDivTwelveSpotlightCard custom-spotlight-card col-3" spotlightColor="#bb84f17a">
                     <Card.Img variant="top" src="./08.jpg" />
                     <div className='mainDivTwelveSpotlightCardDown'>
@@ -480,11 +488,12 @@ function Home() {
                       <p className="mainDivTwelveCardParagraph">Qena Governorate - 2026</p>
                     </div>
                   </SpotlightCard>
+                  
                   <SpotlightCard className="mainDivTwelveSpotlightCard custom-spotlight-card col-3" spotlightColor="#bb84f17a">
-                    <Card.Img variant="top" src="./13.jpg" />
+                    <Card.Img variant="top" src="./14.jpg" />
                     <div className='mainDivTwelveSpotlightCardDown'>
-                      <h3 className='mainDivTwelveSpotlightCardDownHeader'>Digital transformation</h3>
-                      <p className="mainDivTwelveCardParagraph">South Valley University - 2025</p>
+                      <h3 className='mainDivTwelveSpotlightCardDownHeader'>Python developer</h3>
+                      <p className="mainDivTwelveCardParagraph">Solo learn - 2026</p>
                     </div>
                   </SpotlightCard>
 
