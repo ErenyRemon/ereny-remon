@@ -294,6 +294,28 @@ function Home() {
                     </div>
                   </Card.Body>
                 </Card>
+
+                <Card className="mainDivEightCard" >
+                  <Card.Img variant="top" src="./15.png" />
+                  <Card.Body className="mainDivEightCardBody">
+                    <Card.Title>Student grades system</Card.Title>
+                    <Card.Text className="mainDivEightCardText">
+                      A simple and user-friendly web application that helps teachers calculate student grades, averages, and final results quickly and efficiently.
+                    </Card.Text>
+                    <div className="mainDivEightCardDiv">
+                      <span>HTML</span>
+                      <span>CSS</span>
+                      <span>JavaScript (Vanilla JS)</span>
+                      <span>GitHub Pages</span>
+                      <span>Git</span>
+                    </div>
+                    <div>
+                      <Button href='https://github.com/ErenyRemon/student-grades' className="mainDivEightCardButton"><FiGithub /> Code</Button>
+                      <Button href="https://erenyremon.github.io/student-grades/" className="mainDivEightCardButton"><FiExternalLink /> Live Demo</Button>
+                    </div>
+                  </Card.Body>
+                </Card>
+
                 <Card className="mainDivEightCard" >
                   <Card.Img variant="top" src="./03.png" />
                   <Card.Body className="mainDivEightCardBody">
@@ -363,12 +385,12 @@ function Home() {
                       <span>Landing Page</span>
                     </div>
                     <div>
-
+                      
                       <Button href="https://dev-apppo.pantheonsite.io/" className="mainDivEightCardButton"><FiExternalLink /> Live Demo</Button>
                     </div>
                   </Card.Body>
                 </Card>
-              </div>
+                              </div>
             </div>
 
             <div className="container">
