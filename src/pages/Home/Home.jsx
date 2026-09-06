@@ -71,7 +71,7 @@ function Home() {
             <div className="mainDivThree">
               <button className="gradient-btn">
                 <a
-                  href="/Ereny.Remon.pdf"
+                  href={`${process.env.PUBLIC_URL}/Ereny.Remon.pdf`}
                   download="Ereny.Remon.pdf"
                 >
                   Download CV
