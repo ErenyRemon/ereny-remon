@@ -71,8 +71,8 @@ function Home() {
             <div className="mainDivThree">
               <button className="gradient-btn">
                 <a
-                  href="/Ereny.Remon_CV.pdf"
-                  download="Ereny.Remon_CV.pdf"
+                  href="/Ereny.Remon.pdf"
+                  download="Ereny.Remon.pdf"
                 >
                   Download CV
                 </a>
