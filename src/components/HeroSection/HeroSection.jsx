@@ -74,8 +74,8 @@ function HeroSection() {
         </button></a>
 
         <a
-          href="/Ereny.Remon_CV.pdf"
-          download="Ereny.Remon_CV.pdf"
+          href="/Ereny.Remon.pdf"
+          download="Ereny.Remon.pdf"
           className="transparent-btn"
         >
           Download CV
