@@ -8,10 +8,10 @@ function HeroSection() {
     const ctx = canvas.getContext("2d");
 
     let particles = [];
-    const numParticles = 100; // عدد النقاط
-    const colors = ["#ffffff", "#cccccc", "#999999"]; // ألوان هادية
-
-    // ضبط حجم الكانفاس
+    const numParticles = 100; 
+    const colors = ["#ffffff", "#cccccc", "#999999"]; 
+   
+    
     const resizeCanvas = () => {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
@@ -19,7 +19,7 @@ function HeroSection() {
     resizeCanvas();
     window.addEventListener("resize", resizeCanvas);
 
-    // إنشاء النقاط
+    
     for (let i = 0; i < numParticles; i++) {
       particles.push({
         x: Math.random() * canvas.width,
@@ -38,7 +38,7 @@ function HeroSection() {
         p.x += p.speedX;
         p.y += p.speedY;
 
-        // لو خرجت بره الشاشة ترجّعها تاني
+        
         if (p.x < 0 || p.x > canvas.width) p.speedX *= -1;
         if (p.y < 0 || p.y > canvas.height) p.speedY *= -1;
 
@@ -74,7 +74,7 @@ function HeroSection() {
         </button></a>
 
         <a
-          href="/Ereny.Remon.pdf"
+          href={`${process.env.PUBLIC_URL}/Ereny.Remon.pdf`}
           download="Ereny.Remon.pdf"
           className="transparent-btn"
         >
